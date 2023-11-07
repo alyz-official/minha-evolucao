@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(to bottom,black ,#022340, #036873,#05A688,#04BF8A,#05F29B);
+    
+    /*(to top,#67E074,#67E09D,#68E0C6,#67D3E0 );*/
+
+    background-attachment: fixed;
+}
+
+main {
+    /*background-image: linear-gradient(to bottom,#00094a,#000f7d,#0015b0 ) ;*/
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify ;
+    text-indent: 30px;
+}
+
+.basico:hover {
+    text-decoration: underline;
+    color: #04BF8A;
+}
+
+.botao {
+    text-decoration: none;
+    color: #000000;
+    background-color: #04BF8A;
+    padding: 10px;
+}
+
+
+.botao:hover {
+
+    box-shadow:
+    3px 
+    3px 
+    3px 
+    #036873;
+
+    border: 2px solid #002c30;
+
+    
+    
+    /*box-shadow: 
+    3px 
+    3px 
+    3px 
+    #036873;*/
+}
+
+.botao2 {
+            text-decoration: none;
+            color: #000000;
+            background-color: #04BF8A;
+            padding: 10px;
+        }
+
+        .botao2:hover {
+
+            box-shadow:
+            3px 
+            3px
+            #036873;
+
+            background-color: white;
+
+            border:3px solid #05A688;
+        }
+
