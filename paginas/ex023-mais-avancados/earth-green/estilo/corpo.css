@@ -2,6 +2,8 @@
 
         body {
             background-color: #e0e0e067;
+            /*daqui para baixo pode apagar*/
+            padding: 1em;
         }
 
         header {
@@ -10,6 +12,9 @@
             background-color: #ffffff;
             border-radius: 0.5em;
             box-shadow:0.1em 0.1em 0.1em #00000028;
+            /*daqui para baixo pode apagar*/
+            max-width: 800px;
+            margin: 0.1em auto 0.1em auto;
         }
 
         header > h1 {
@@ -37,6 +42,9 @@
             padding: 10px;
             border-radius: 0.5em;
             box-shadow: 0.1em 0.1em 0.1em #00000028;
+            /*daqui para baixo pode apagar*/
+            max-width: 800px;
+            margin: 0.8em auto 0.8em auto;
         }
 
         section {
