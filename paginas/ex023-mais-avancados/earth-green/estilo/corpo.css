@@ -67,7 +67,7 @@
             margin: 1em;
         }
 
-        p {
+        section > p {
             padding: 0.5em;
             text-align: justify;
             text-indent: 1.5em;

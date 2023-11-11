@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+    padding: 0.2em 0.7em 0.7em 0.7em;
+}
+
 h1 {
     text-align: center;
 }
@@ -57,7 +61,11 @@ div#rodape {
     float: left;
 }
 
-div#rodape > a {
+div#rodape > p {
+    text-align: center;
+}
+
+.botao {
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -66,17 +74,16 @@ div#rodape > a {
     text-align: center;
     padding: 0.15em;
     width: 8em;
-    margin: 0.8em auto;
-    display: block;
+    display: inline-block;
 }
 
-div#rodape > a:hover {
+.botao:hover {
     outline: 0.2em solid white;
     text-align: center;
     box-shadow: 0.1em 0.1em 0.5em #0000002d;
 }
 
-div#rodape > a:active {
+.botao:active {
     background-color: white ;
     color: crimson;
 }
