@@ -17,7 +17,7 @@ main {
     50px /* espalhar*/ 
     #00000051; 
 
-    width: 600px;
+    max-width: 600px;
     padding: 10px;
     margin: auto; /* centralizar com flexibilidade */
 }
