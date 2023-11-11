@@ -1,0 +1,30 @@
+.botao {
+    width: 5em;
+    display: block;
+    background-color: #ffffff;
+    color: #30E88E;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 1.5em auto;
+    font-size: 1.2em;
+    box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.22);
+    outline: 0.15em solid #30E88E;
+}
+
+.botao:hover {
+    /*box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.22);*/
+    /*outline: 0.2em solid #81ffc2;*/
+    background-color: #30E88E;
+    color: #ffffff;
+}
+
+a {
+    text-align: center;
+}
+
+.botao:active {
+    background-color: #ffffff;
+    color: #30E88E;
+}
