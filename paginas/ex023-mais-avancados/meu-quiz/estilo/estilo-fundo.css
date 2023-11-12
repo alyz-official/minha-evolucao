@@ -1,7 +1,4 @@
-@charset "UTF-8"
-*{
-    height: 100%;
-}
+@charset "UTF-8";
 
 body {
     background-image: linear-gradient(to top, #008c5b,#0BD991,#0CF863,#4bfe8d);
@@ -20,7 +17,6 @@ h2 {
 main {
     background-color: #ffffff;
     border-radius: 30px;
-    width: 600px;
     padding: 10px;
     margin: auto;
 }
