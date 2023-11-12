@@ -52,7 +52,6 @@ div#centro {
 
 section {
     background-color: var(--cor06);
-    /*width: 57.39%;*/
     width: 67.3%;
     height: 100%;
 
@@ -61,13 +60,10 @@ section {
 
 aside {
     background-color: var(--cor06);
-    /*width: 40%;*/
     width: 30%;
     height: 100%;
 
-    border-left: 1em solid brown;
-
-    float: left;
+    float: right;
 }
 
 footer {
@@ -75,6 +71,8 @@ footer {
     width: 100%;
     height: 19.5%;
     margin: 1em 0em 1em 0em;
+
+    clear: both;
 }
 
 .botao {
